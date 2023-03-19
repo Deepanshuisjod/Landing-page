@@ -1,0 +1,78 @@
+.Top{
+	background-color: #1F2937 ;
+	height: 550px;	
+}
+.Heading{
+	padding: 10px;
+	display: flex;
+	justify-content: space-around;
+}
+.Header{
+	display: flex;
+	justify-content: space-between ;
+	
+}
+.Header-Logo{
+	padding-top: 6px;
+}
+.Header-Logo-Text{
+	margin-right: 15px;
+	font-size: 24px;
+	color: #F9FAF8; 
+	font-family: monospace;
+}
+.Header-links{
+	display: flex;
+	font-family: ;
+}
+.one, .two, .three{
+	font-size: 18px;
+	color: #E5E7EB;
+}
+.one{
+	margin-right: 30px;
+}
+.two{
+	margin-right: 30px;
+}
+
+.text{
+	display: flex;
+	flex-direction: column;
+	padding-left: 360px;       
+	width: 400px;
+}
+.Main-text{
+	display: flex;
+	font-size: 48px;
+	color: #F9FAF8;
+	padding-top: 50px;
+}
+.Details{
+	display: flex;
+	font-size: 18px;
+	color: #E5E7EB;
+	font-family: monospace;
+	padding-top: 10px;
+}
+.Sign-UP{
+	display: flex;
+	font-size: 18px;
+	color: #E5E7EB;
+	font-family: monospace;
+	margin-top: 10px;
+	border: 5px ;
+	width: 100px;
+	background-color: royalblue;
+	padding-left: 20px;
+	border-radius: 7px 7px 7px 7px;
+	height: 30px;
+	padding-top: 2.5px;
+}
+.Captains{
+	display: flex;
+	justify-content: flex-end;
+	height: 270px;	
+	padding-right: 400px;
+	margin-top: -290px;
+}
