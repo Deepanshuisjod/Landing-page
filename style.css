@@ -1,3 +1,9 @@
+/*The Top-Most part of the landing page*/
+
+@font-face {
+	font-family: Myfont;
+	src: url();
+}
 .Top{
 	background-color: #1F2937 ;
 	height: 550px;	
@@ -19,7 +25,7 @@
 	margin-right: 15px;
 	font-size: 24px;
 	color: #F9FAF8; 
-	font-family: monospace;
+	font-family: ;
 }
 .Header-links{
 	display: flex;
@@ -29,13 +35,9 @@
 	font-size: 18px;
 	color: #E5E7EB;
 }
-.one{
+.one, .two{
 	margin-right: 30px;
 }
-.two{
-	margin-right: 30px;
-}
-
 .text{
 	display: flex;
 	flex-direction: column;
@@ -47,6 +49,7 @@
 	font-size: 48px;
 	color: #F9FAF8;
 	padding-top: 50px;
+	font-weight: bolder;
 }
 .Details{
 	display: flex;
@@ -75,4 +78,90 @@
 	height: 270px;	
 	padding-right: 400px;
 	margin-top: -290px;
+}
+
+/*The Middle Part of the Landing page*/
+
+.MIDDLE{
+	background-color: white;
+}
+#Teams{
+	font-size: 36px;
+	font-weight: bold;
+	color: #1F2937;
+	padding: 30px;
+}
+.First{
+	display: flex;
+	padding-top: 20px;
+	justify-content: space-around;
+	padding-left: 350px;
+	padding-right: 350px;
+}
+.DC, .CSK, .MI, .KKR{
+	border: 5px solid royalblue;
+	border-radius: 7px 7px 7px 7px;
+	padding-top: 1px;
+}
+.Names{
+	display: flex;
+	padding-top: 10px;
+	justify-content: space-around;
+	padding-left: 360px;
+	padding-right: 350px;
+}
+.Second{
+	display: flex;
+	padding-top: 20px;
+	justify-content: space-around;
+	padding-left: 350px;
+	padding-right: 350px;
+}
+.RCB, .RR, .PK, .SRH{
+	border: 5px solid royalblue;
+	border-radius: 7px 7px 7px 7px;
+	padding-top: 1px;
+}
+.Names2{
+	display: flex;
+	padding-top: 10px;
+	justify-content: space-around;
+	padding-left: 350px;
+	padding-right: 350px;
+	padding-bottom: 20px;
+}
+.Quote{
+	font-size: 36px;
+	color: #1F2937;
+	background-color: #E5E7EB;
+	padding: 200px;
+	font-style: italic;
+}
+.White{
+	background-color: white;
+}
+.Royal{
+	background-color: royalblue;
+	padding: 100px;
+	border: 150px solid white;
+	border-radius: 10px 10px 10px 10px;
+}
+.action{
+	color: white;
+	font-size: 30px;
+	padding-left: 200px;	
+}
+.signup2{
+	display: flex;
+	border: 3px solid white;
+	width: 100px;
+	border-radius: 7px 7px 7px 7px;
+	padding: 5px;
+}
+.Copyright{
+	background-color: #1F2937 ;
+	font-size: 20px;
+	color: white;
+	padding: 60px;
+
 }
